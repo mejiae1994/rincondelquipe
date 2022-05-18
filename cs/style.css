@@ -1,0 +1,35 @@
+.flex {
+    display: flex;    
+}
+
+body {
+    background-image: url("../img/Quipes.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;    
+}
+
+header {
+    background: rgba(39, 43, 39, 0.2) 
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.navbar h1 {
+    font-size: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    gap: 2rem;
+    font-size: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
